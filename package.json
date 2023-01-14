@@ -1,6 +1,6 @@
 {
   "name": "react-word-checker",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "React hook for checking if a word is a valid english word",
   "main": "dist/index.js",
   "module": "dist/module.js",
