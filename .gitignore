@@ -4,6 +4,7 @@ build/Release
 typings/
 .npm
 dist
+.DS_Store
 
 # Logs
 logs
