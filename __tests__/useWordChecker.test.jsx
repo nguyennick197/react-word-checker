@@ -32,6 +32,7 @@ test('test useWordChecker in component', () => {
                 expect(isLoading).toBe(false);
                 expect(wordExists("table")).toBe(true);
                 expect(wordExists("asdasd")).toBe(false);
+                expect(wordExists("TaBLe")).toBe(true);
             }
         }, [isLoading]);
 
