@@ -1,8 +1,10 @@
 {
   "name": "react-word-checker",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "React hook for checking if a word is a valid english word",
   "main": "dist/index.js",
+  "module": "dist/module.js",
+  "type": "module",
   "scripts": {
     "build": "rollup -c",
     "start": "rollup -c -w"
@@ -18,12 +20,12 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.0",
     "@rollup/plugin-url": "^8.0.1",
     "@types/react": "^18.0.26",
     "babel-core": "^6.26.3",
     "babel-runtime": "^6.26.0",
     "rollup": "^2.79.1",
-    "rollup-plugin-sass": "^1.2.2",
     "rollup-plugin-string": "^3.0.0",
     "rollup-plugin-typescript2": "^0.34.1",
     "typescript": "^4.9.4"
@@ -31,7 +33,11 @@
   "keywords": [
     "react",
     "word",
+    "word checker",
     "hooks",
     "typescript"
+  ],
+  "files": [
+    "dist"
   ]
 }
