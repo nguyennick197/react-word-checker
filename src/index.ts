@@ -1,0 +1,1 @@
+export { useWordChecker } from "./hooks/useWordChecker";

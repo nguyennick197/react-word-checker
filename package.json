@@ -1,0 +1,36 @@
+{
+  "name": "react-word-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "author": "Nick Nguyen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nguyennick197/react-word-checker/issues"
+  },
+  "homepage": "https://github.com/nguyennick197/react-word-checker",
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-url": "^8.0.1",
+    "@types/react": "^18.0.26",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "rollup": "^1.29.0",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "typescript": "^4.9.4"
+  },
+  "keywords": [
+    "react",
+    "word",
+    "hooks",
+    "typescript"
+  ]
+}

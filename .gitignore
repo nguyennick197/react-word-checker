@@ -1,0 +1,14 @@
+node_modules/
+build/Release
+*.tsbuildinfo
+typings/
+.npm
+dist
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
