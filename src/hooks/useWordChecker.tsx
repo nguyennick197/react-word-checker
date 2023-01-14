@@ -2,13 +2,11 @@ import { useState, useEffect } from "react";
 import en from "../words/en.txt";
 import es from "../words/es.txt";
 import fr from "../words/fr.txt";
-import de from "../words/de.txt";
 
 const langMap = {
     "en": en,
     "es": es,
     "fr": fr,
-    "de": de
 }
 
 export const useWordChecker = (language: string = "en") => {

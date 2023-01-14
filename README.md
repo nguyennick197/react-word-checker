@@ -1,6 +1,6 @@
 # react-word-checker
 
-A React Hook that allows you to check if any word is a valid word in English, Spanish, French, or German. 
+A React Hook that allows you to check if any word is a valid word in English, Spanish, or French. 
 
 Credit to https://github.com/lorenbrichter/Words for the word lists.
 
@@ -28,7 +28,6 @@ declare const useWordChecker: (language?: string) => {
  - `en`: English
  - `es`: Spanish
  - `fr`: French
- - `de`: German
 
 ### Example
 ```js
