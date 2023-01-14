@@ -1,6 +1,6 @@
 import sass from 'rollup-plugin-sass';
 import typescript from 'rollup-plugin-typescript2';
-import url from '@rollup/plugin-url';
+import { string } from "rollup-plugin-string";
 
 import pkg from './package.json'
 
@@ -15,6 +15,12 @@ export default {
       strict: false,
     },
   ],
-  plugins: [sass({ insert: true }), typescript(), url()],
+  plugins: [
+    sass({ insert: true }),
+    typescript(),
+    string({
+      include: "**/*.txt"
+    })
+  ],
   external: ['react', 'react-dom'],
 }
